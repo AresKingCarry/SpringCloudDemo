@@ -1,0 +1,13 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AresKingCarry/springcloudconfigserver.git
+          username: AresKingCarry
+          password: 15930261934Stone
+      label: master
